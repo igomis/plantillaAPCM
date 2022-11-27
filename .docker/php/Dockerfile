@@ -8,7 +8,7 @@ ENV PHP_VERSION 8.1
 RUN apt-get update
 
 RUN apt-get install -y libzip-dev
-RUN docker-php-ext-install zip
+RUN docker-php-ext-install zip pdo pdo_mysql
 
 RUN pecl install xdebug \
     && docker-php-ext-enable xdebug
