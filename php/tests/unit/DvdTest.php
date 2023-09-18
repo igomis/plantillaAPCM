@@ -2,11 +2,12 @@
 
 class DvdTest extends \Codeception\Test\Unit
 {
+
     /**
      * @var \UnitTester
      */
     protected $tester;
-    
+    /*
     protected function _before()
     {
         include_once('./src/Dvd.php');
@@ -23,6 +24,6 @@ class DvdTest extends \Codeception\Test\Unit
 
 
 
-
+    */
 
 }

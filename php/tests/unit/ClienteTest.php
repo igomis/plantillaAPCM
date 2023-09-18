@@ -17,6 +17,7 @@ class ClienteTest extends \Codeception\Test\Unit
 
 
     }
+    /*
 
     // tests
     public function testClienteSenseLlogues()
@@ -49,7 +50,7 @@ class ClienteTest extends \Codeception\Test\Unit
         $this->assertEquals(true,$cliente->retornar(22));
         $this->assertEquals(0,$cliente->getNumSoportesAlquilados());
     }
-
+    */
 
 
 

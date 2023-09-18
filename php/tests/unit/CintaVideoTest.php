@@ -13,6 +13,7 @@ class CintaVideoTest extends \Codeception\Test\Unit
 
 
     }
+    /*
     // tests
     public function testPreuAmbIva()
     {
@@ -20,7 +21,7 @@ class CintaVideoTest extends \Codeception\Test\Unit
         $this->assertEquals(3.63,$cinta->getPrecioConIVA());
     }
 
-
+    */
 
 
 

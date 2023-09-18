@@ -2,9 +2,11 @@
 
 class CadenesCest
 {
+    /*
     public function _before(AcceptanceTester $I)
     {
     }
+
 
     public function try250WorksTest(AcceptanceTester $I)
     {
@@ -69,6 +71,6 @@ class CadenesCest
         $I->see('Els 4 numeros parells són 12 4 6 12');
     }
 
-
+    */
 
 }

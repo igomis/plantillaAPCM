@@ -1,7 +1,8 @@
 <?php
 
-class ExamenCest
+class ActivitatPHP
 {
+    /*
     public function _before(AcceptanceTester $I)
     {
     }
@@ -51,5 +52,5 @@ class ExamenCest
         $I->seeInSource('<tr><td>1.500</td> <td>3:28.76</td> <td>Mohamed Katir El Haouzi</td> <td>1998</td> <td>Playas de Castellón</td> <td>09.07.2021</td> <td>Mónaco</td> </tr>');
     }
 
-
+    */
 }

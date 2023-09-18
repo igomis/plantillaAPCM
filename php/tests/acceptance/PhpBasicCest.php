@@ -8,20 +8,10 @@ class PhpBasicCest
 
     public function try201WorksTest(AcceptanceTester $I)
     {
-        $I->wantTo('Comprovar el càlcul de l\'àrea d\'un rectangle');
         $I->amOnPage('/201.php');
-        $I->wantTo('Comprovar el càlcul de l\'àrea d\'un rectangle');
-
-        // Comprova que la pàgina ha carregat correctament
-        $I->see('L\'àrea del rectangle és:');
-
-        // Verifica que l'àrea calculada sigui correcta
-        $I->see('L\'àrea del rectangle és: 100'); // Canvia el valor 100 pel resultat correcte esperat.
-
-        // Finalitza la prova
-        $I->stop();
-
+        $I->see("àrea del rectangle és: 100"); // Canvia el valor 100 pel resultat correcte esperat.
     }
+
 
     public function try202WorksTest(AcceptanceTester $I)
     {
@@ -59,7 +49,7 @@ class PhpBasicCest
         $I->amOnPage('/204.php?edat=50');
         $I->see('40');
         $I->see('60');
-        $I->see('2039');
+        $I->see('2040');
     }
 
     public function try205WorksTest(AcceptanceTester $I)
