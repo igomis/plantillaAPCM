@@ -1,9 +1,9 @@
-FROM php:8.1-fpm
+FROM php:8.3-fpm
 
 #Environment variables to configure php
 
 ENV PHP_POST_MAX_SIZE 10M
-ENV PHP_VERSION 8.1
+ENV PHP_VERSION 8.3
 
 RUN apt-get update
 
