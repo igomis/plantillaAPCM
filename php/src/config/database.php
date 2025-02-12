@@ -3,6 +3,6 @@ return [
         'host' => 'localhost',
         'name' => 'tasques_app',
         'user' => 'root',
-        'pass' => ''
+        'pass' => '1234'
     ]
 ];
