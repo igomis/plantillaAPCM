@@ -1,10 +1,10 @@
 <?php
-require_once __DIR__ . "/../config/database.php";
 
 class Task {
     private $pdo;
 
     public function __construct() {
+        $conn = require_once __DIR__ . "/../../config/database.php";
         // connexio a la bbdd
     }
 

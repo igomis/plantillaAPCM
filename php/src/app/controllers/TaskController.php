@@ -1,5 +1,5 @@
 <?php
-require_once '../app/models/Task.php';
+require_once __DIR__ . '/../models/Task.php';
 session_start();
 
 class TaskController {
